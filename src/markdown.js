@@ -1,5 +1,5 @@
 class markDown {
-    static generateReadme(answers){
+    static generateReadme(answers) {
         return `
 # ${answers.title}
 
