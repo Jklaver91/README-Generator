@@ -30,6 +30,9 @@
     test
 
 ## Contact
-    test
+    
+    You can contact me at:
+    
+    Github: https://github.com/test
     test
     

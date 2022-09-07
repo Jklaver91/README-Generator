@@ -32,7 +32,10 @@ class markDown {
     ${answers.testing}
 
 ## Contact
-    ${answers.github}
+    
+    You can contact me at:
+    
+    Github: https://github.com/${answers.github}
     ${answers.email}
     `
     }
