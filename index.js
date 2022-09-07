@@ -1,10 +1,12 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markDown = require('./src/markdown')
 
-// const promptUser = () => {
-    // return 
-    inquirer
-      .prompt([
+
+
+const promptUser = () => {
+    return inquirer
+.prompt([
         {
           type: 'input',
           name: 'title',
@@ -132,11 +134,24 @@ const fs = require('fs');
       .then(answers => {
         console.log("answers object:");
         console.log(answers);
-        fs.writeFile('./dist/README.md', JSON.stringify(answers),err => {
+        const readME = markDown.generateReadme(answers)
+        
+        fs.writeFile('./dist/README.md', readME , err => {
           if (err) {
             console.log("There has been an error!");
             console.log(err);
           }
-          else console.log("Success!");
+          else console.log("Your new README.md is in the dist folder!");
         })
-      });
+        
+        // fs.writeFile('./dist/README.md', JSON.stringify(answers),err => {
+        //   if (err) {
+        //     console.log("There has been an error!");
+        //     console.log(err);
+        //   }
+        //   else console.log("Your new README.md is in the dist folder!");
+        // })
+      })
+    };
+
+promptUser();
