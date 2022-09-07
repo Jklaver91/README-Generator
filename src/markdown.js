@@ -1,7 +1,7 @@
 class markDown {
     static generateReadme(answers){
         return `
-# $(answers.title)
+# ${answers.title}
 
 ## Table of Contents
 
@@ -14,25 +14,26 @@ class markDown {
 - [Contact](#contact)
 
 ## Description
-    $(answers.description)
+    ${answers.description}
 
 ## Install
-    $(answers.install)
+    ${answers.install}
 
 ## Usage
-    $(answers.usage)
+    ${answers.usage}
 
 ## License
-    $(answers.license)
+    ${answers.license}
 
 ## Contributers
-    $(answers.contributers)
+    ${answers.contributer}
 
 ## Testing
-    $(answers.testing)
+    ${answers.testing}
 
 ## Contact
-    $(answers.contact)
+    ${answers.github}
+    ${answers.email}
     `
     }
 }
