@@ -1,0 +1,1 @@
+{"title":"fewwifwe","description":"goobl peopo","install":"skimpler","usage":"fergle the dergle","license":["None"],"contributer":"mickey mouse","testing":"no","github":"Jklaver91","email":"Klaverts@yahoo.com"}
