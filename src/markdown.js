@@ -36,7 +36,8 @@ class markDown {
     You can contact me at:
     
     Github: https://github.com/${answers.github}
-    ${answers.email}
+    
+    Or at ${answers.email}
     `
     }
 }

@@ -1,5 +1,5 @@
 
-# test
+# README-Generator
 
 ## Table of Contents
 
@@ -12,27 +12,28 @@
 - [Contact](#contact)
 
 ## Description
-    test
+    This project requires us to us node to create a command line program to generate READMEs based on a set of questions.
 
 ## Install
-    test
+    First you must install node and initialize it 'npm int -y'. Then you must install inquirer 8.2.4, amd run  'node index' in the command terminal.
 
 ## Usage
-    test
+    Once running just follow along with each question asked by the program.
 
 ## License
     None
 
 ## Contributers
-    test 
+    Justin Klaver
 
 ## Testing
-    test 
+    Testing for this program used terminal testing, no test such as jest were used. Testing through the terminal was integral to view any mistakes on a project this small.
 
 ## Contact
     
     You can contact me at:
     
-    Github: https://github.com/test 
-    test 
+    Github: https://github.com/jklaver91
+    
+    Or at Klaverts@yahoo.com
     

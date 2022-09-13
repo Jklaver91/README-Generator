@@ -53,18 +53,10 @@ const questions =
             }
         },
         {
-            type: 'checkbox',
+            type: 'rawlist',
             name: 'license',
             message: 'Which of the top five licenses would you like to use? (Required)',
             choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-clause', 'None'],
-            validate: licenseInput => {
-                if (licenseInput) {
-                    return true;
-                } else {
-                    console.log('Please choose a license!');
-                    return false;
-                }
-            }
         },
         {
             type: 'input',
@@ -121,7 +113,15 @@ const questions =
         {
             type: 'input',
             name: 'email',
-            message: 'Please enter your email to be contacted at! (press space to skip)'
+            message: 'Please enter your email to be contacted at! (Required)',
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter an email!');
+                    return false;
+                }
+            }
         }
     ]
 
