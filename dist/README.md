@@ -1,33 +1,37 @@
 
-# README-Generator
+# README Generator
+
+![badge](https://img.shields.io/badge/license-None-brightgreen)<br />
 
 ## Table of Contents
 
-- [Description](#description)
-- [Install](#install)
-- [Usage](#usage)
-- [License](#license)
-- [Contributers](#contributers)
-- [Testing](#testing)
-- [Contact](#contact)
+- [README Generator](#readme-generator)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributers](#contributers)
+  - [Testing](#testing)
+  - [Contact](#contact)
 
 ## Description
-    This project requires us to us node to create a command line program to generate READMEs based on a set of questions.
+    Create a command line application to generate high quality READMEs.
 
 ## Install
-    First you must install node and initialize it 'npm int -y'. Then you must install inquirer 8.2.4, amd run  'node index' in the command terminal.
+    First run " npm instal -y" then run "npm install inquirer" from the command line.
 
 ## Usage
-    Once running just follow along with each question asked by the program.
+    Once initialized run "node index" and follow the instructions the program provides.
 
 ## License
     None
 
 ## Contributers
-    Justin Klaver
+    Created by Justin Klaver
 
 ## Testing
-    Testing for this program used terminal testing, no test such as jest were used. Testing through the terminal was integral to view any mistakes on a project this small.
+    Command line testing was used to test this program piece by piece.
 
 ## Contact
     

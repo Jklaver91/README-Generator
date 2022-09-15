@@ -55,8 +55,8 @@ const questions =
         {
             type: 'rawlist',
             name: 'license',
-            message: 'Which of the top five licenses would you like to use? (Required)',
-            choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-clause', 'None'],
+            message: 'Which of the four licenses would you like to use? (Required)',
+            choices: ['MIT', 'Apache', 'GPL', 'Apache2', 'None'],
         },
         {
             type: 'input',
