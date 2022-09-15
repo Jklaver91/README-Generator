@@ -1,37 +1,35 @@
 
-# README Generator
+# Readme Generator
 
-![badge](https://img.shields.io/badge/license-None-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Table of Contents
 
-- [README Generator](#readme-generator)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributers](#contributers)
-  - [Testing](#testing)
-  - [Contact](#contact)
+- [Description](#description)
+- [Install](#install)
+- [Usage](#usage)
+- [License](#license)
+- [Contributers](#contributers)
+- [Testing](#testing)
+- [Contact](#contact)
 
 ## Description
-    Create a command line application to generate high quality READMEs.
+    Descriptions go here!
 
 ## Install
-    First run " npm instal -y" then run "npm install inquirer" from the command line.
+    install node, run npm init -y, and npm install inquirer
 
 ## Usage
-    Once initialized run "node index" and follow the instructions the program provides.
+    run node index and follow instructions
 
 ## License
-    None
+    MIT
 
 ## Contributers
-    Created by Justin Klaver
+    Justin Klaver!
 
 ## Testing
-    Command line testing was used to test this program piece by piece.
+    command line testing 
 
 ## Contact
     
@@ -39,5 +37,5 @@
     
     Github: https://github.com/jklaver91
     
-    Or at Klaverts@yahoo.com
+    Or at klaverts@yahoo.com
     
